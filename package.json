@@ -1,0 +1,14 @@
+{
+  "name": "plasu-project-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plateau State University (PLASU) Project Management System — React + Node/Express + SQLite",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "npm run build && npm --prefix server start",
+    "reset-db": "npm --prefix server run seed"
+  }
+}
